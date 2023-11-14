@@ -28,8 +28,14 @@ public class rectangulo {
 
 		// Bucle que va recorriendo las filas (i) y las columnas (j) y pinto los asteriscos(k)
 		for (int i = 1; i <= n; i++) {
+			
 			for (int j = 1; j <= n2; j++) {
+			if(i==1||i==n||j==1||j==n2) {
 				System.out.print("* ");
+			}else {
+				System.out.print("  ");
+			}
+				
 			}
 			System.out.println();            
 		}

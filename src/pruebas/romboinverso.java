@@ -31,7 +31,10 @@ public class romboinverso {
 				System.out.print(" ");
 			}
 			for (int k = 1; k <= i; k++) {
-				System.out.print("* ");
+				if(i==1||i==n||k==1||k==i) {
+				System.out.print("* ");}else {
+					System.out.print("  ");
+				}
 			}
 			System.out.println();
 		}
@@ -40,7 +43,10 @@ public class romboinverso {
 				System.out.print(" ");
 			}
 			for (int k = 1; k <= i; k++) {
-				System.out.print("* ");
+			if(i==1||i==n||k==1||k==i) {
+				System.out.print("* ");}else {
+				System.out.print("  ");
+				}
 			}
 			System.out.println();
 		}
